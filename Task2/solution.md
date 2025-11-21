@@ -5,16 +5,16 @@ Sie veranschaulichen die Lösung.
 
 ## 1. Prettier Format-Check Warnung
 
-![Format Check](./images/format-error.png)
+![Format Check](imagesormat-error.png)
 
 ## 2. ESLint Fehler
 
-![ESLint Errors](./images/linter-error.png)
+![ESLint Errors](imagesinter-error.png)
 
 ## 3. Fehlschlagende Tests
 
-![Failing Tests](./images/test-error.png)
+![Failing Tests](imagesest-error.png)
 
 ## 4. Erfolgreiche Build-Pipeline
 
-![Successful Build](./images/run-without-errors.png)
+![Successful Build](imagesun-without-errors.png)
