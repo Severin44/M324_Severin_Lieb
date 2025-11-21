@@ -12,6 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Go to Task2 folder
+        uses: cd Task2
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
