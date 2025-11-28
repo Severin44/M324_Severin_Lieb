@@ -2,4 +2,4 @@
 
 FNC on TOP
 
-(https://fnatic.com)
+[Fnatic Wbsite](https://fnatic.com)
