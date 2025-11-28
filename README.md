@@ -2,4 +2,4 @@
 
 FNC on TOP
 
-https://fnatic.com
+(https://fnatic.com)
