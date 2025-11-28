@@ -1,0 +1,25 @@
+name: Markdown Lint
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v21
+        with:
+          # Nur README und docs/ prüfen
+          globs: |
+            README.md
+            docs/**/*.md
